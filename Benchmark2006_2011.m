@@ -19,7 +19,6 @@ clc
  hold off
 
 %% Equally weighted portfolio
-
 ppEW=Portfolio(pp,'InitPort',1/pp.NumAssets);
 figure
 ppEW.plotFrontier(nport);
@@ -67,7 +66,6 @@ hold off
  hold off
 
  %% Overall comparison of EFs
- 
  figure 
  ppEW.plotFrontier(nport); hold on; 
  plotFrontier(pp);
